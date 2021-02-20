@@ -1,9 +1,8 @@
-
 <?
-    include_once('./header.php')
+    include_once('./header.php');
 ?>
 
-<main id="login">
+<main id="login" class='member'>
     <section id="section1">
         <div class="wrap">
             <div class="gap">
@@ -32,7 +31,7 @@
                             <li>
                                 <div class="content-gap">
                                     <div class="login-wrap">
-                                        <form name='login' id='login' method='post' action="./login_Response.php">
+                                        <form name='form_login' id='form_login'>
                                             <ul>
                                                 <li>
                                                     <div>
@@ -52,7 +51,7 @@
                                                 </li>
                                                 <li>
                                                     <div class='clearfix'>
-                                                        <span class='left-wrap'>아직 회원이 아니신가요?<a href="#" class='memberGaipBtn'>회원가입</a></span>
+                                                        <span class='left-wrap'>아직 회원이 아니신가요?<a href="./join.php" class='memberGaipBtn'>회원가입</a></span>
                                                         <span class='right-wrap'><a href="#" class='idPwdFindBtn'>아이디/비밀번호 찾기</a></span>
                                                     </div>
                                                 </li>
@@ -63,12 +62,8 @@
                                                 </li>
                                             </ul>
                                         </form>
+                                        <div class="login_txt"></div>
                                     </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="content-gap">
-
                                 </div>
                             </li>
                         </ul>
@@ -81,5 +76,6 @@
 
 
 <?
-    include_once('./footer.php')
+    include_once('./footer.php');
 ?>
+

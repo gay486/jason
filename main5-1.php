@@ -1,7 +1,6 @@
 <?
-    include_once('header.php');
+    include_once('./header.php');
 ?>
-
 
 <main id="main5-1">
     <section id="section1">
@@ -16,25 +15,27 @@
         </div>
     </section>
     <section id="section2">
-    <div class="wrap">
-        <div class="gap">
-            <div class="container">
-                <!--갤러리-->
+        <div class="wrap">
+            <div class="gap">
+                <div class="container">
+                    <!-- 갤러리 -->
+                </div>
             </div>
         </div>
-    </div>
     </section>
     <section id="section3">
-    <div class="wrap">
-        <div class="gap">
-            <div class="container">
-                <!--슬라이드-->
+        <div class="wrap">
+            <div class="gap">
+                <div class="container">
+                    <!-- 슬라이드 -->
+                </div>
             </div>
         </div>
-    </div>
     </section>
 </main>
 
+
 <?
-    include_once('footer.php');
+    include_once('./footer.php');
 ?>
+
