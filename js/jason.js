@@ -303,97 +303,112 @@
                 });
 
         },
-        section3Fn: function(){
-            var _win = $(window);
-            var _winW = _win.innerWidth();
-            var _slideView = $('#main #section3 .slide-view');
-            var _pageBtnW = $('#main #section3 .pageBtn').innerWidth();
-            var _pageWrap = $('#main #section3 .page-wrap');
-            var _slideBg = $('#main #section3 .slide-bg');
-            var _slideBgW = _slideBg.innerWidth();
+        section3Fn:function(){
 
+            //박스높이 slide View Box 너비가 1360이하이면 높이 자동 설정 높이 설정  
+            var $window    = $(window);
+            var $winW      = $window.innerWidth();
+            var $slideView = $('#main #section3 .slide-view');
+            var $pageBtnW  = $('#main #section3 .pageBtn').innerWidth();
+            var $pageWrap  = $('#main #section3 .page-wrap');
+            var $slideBg   = $('#main #section3 .slide-bg-image');
+            var $slideBgW  = $('#main #section3 .slide-bg-image').innerWidth();
+               
 
                 function resizeFn(){
-                    _winW = _win.innerWidth();
-                    _pageBtnW = $('#main #section3 .pageBtn').innerWidth();
-                    _slideBgW = _slideBg.innerWidth();
+                    $winW = $window.innerWidth();
+                    $pageBtnW  = $('#main #section3 .pageBtn').innerWidth();
+                    $slideBgW  = $('#main #section3 .slide-bg-image').innerWidth();
 
-                    if(_winW<=1360){
-                        _slideView.css({height:_winW*0.419117647});
-                        _pageWrap.css({height:_pageBtnW});
-                        _slideBg.css({height:_slideBgW});
+                    if($winW<=1360){
+                        $slideView.css({height:$winW*0.419117647}); //570 = 1360 * 0.419117647
+                        $pageWrap.css({height:$pageBtnW});
+                        $slideBg.css({height:$slideBgW});
                     }
                     else{
-                        _slideView.css({height:570});
-                    }
-                }
-
+                        $slideView.css({height:570}); //570 = 1360 * 0.419117647
+                    }                
+                }   
+                
                 setTimeout(resizeFn,10);
 
-                _win.resize(function(){
+                $window.resize(function(){
                     resizeFn();
                 });
 
-            //페이드 인아웃 반응형 슬라이드 웹개발    
-            var cnt = 0;
-            var n = $('#main #section3 .slide').length-1;
-            var _slide = $('#main #section3 .slide');
-            var _prevBtn = $('#main #section3 .prevBtn');
-            var _nextBtn = $('#main #section3 .nextBtn');
-            var _pageBtn = $('#main #section3 .pageBtn');
-            var a = [1,2];
 
-                //1. 메인 슬라이드 페이드인아웃 함수
-                //메인 다음 슬라이드 함수
+
+                //페이드 인아웃 반응형 슬라이드 웹개발
+                var cnt      = 0;
+                var n        = $('#main #section3 .slide').length-1; //2 = 3-1 = index number(0 1 2)
+                var $nextBtn = $('#main #section3 .nextBtn');
+                var $prevBtn = $('#main #section3 .prevBtn');
+                var $slide   = $('#main #section3 .slide');
+                var $pageBtn = $('#main #section3 .pageBtn');
+                var a = [1,2]; 
+
+
+                //1.메인 슬라이드 페이드인아웃 함수 //////////
+                //1-1메인 다음 슬라이드 함수
                 function mainNextSlideFn(){
-                    _slide.css({zIndex:1});
-                    _slide.eq(cnt==0?n:cnt-1).css({zIndex:2});
-                    _slide.eq(cnt).css({zIndex:3}).animate({opacity:0},0).animate({opacity:1},1000);
-                    pageBtnFn();
+                    $slide.css({zIndex:1}); //초기화 모든 슬라이드 zIndex:1
+                    $slide.eq(cnt==0?n:cnt-1).css({zIndex:2}); //현재 이전 슬라이드
+                    $slide.eq(cnt).css({zIndex:3}).animate({opacity:0},0).animate({opacity:1},1000); //현재 슬라이드
+                    pageBtnFn();                    
                 }
-
-                //메인 이전 슬라이드 함수
+                //1-2메인 이전 슬라이드 함수
                 function mainPrevSlideFn(){
-                    _slide.css({zIndex:1,opacity:1});
-                    _slide.eq(cnt).css({zIndex:2});
-                    _slide.eq(cnt==n?0:cnt+1).css({zIndex:3}).animate({opacity:1},0).animate({opacity:0},1000);
-                    pageBtnFn();
+                    $slide.css({zIndex:1,opacity:1}); //초기화 모든 슬라이드 zIndex:1 opacity:1
+                    $slide.eq(cnt).css({zIndex:2}); //현재 이전 슬라이드
+                    $slide.eq(cnt==n?0:cnt+1).css({zIndex:3}).animate({opacity:1},0).animate({opacity:0},1000); //현재 슬라이드                    
+                    pageBtnFn();                    
                 }
 
-                //2. 카운트 함수 이벤트
-                //메인 다음 카운트 슬라이드 함수
-                function nextCntFn(){
+
+                //2. 카운트 함수 이벤트 //////////
+                //2-1메인 다음 카운트 슬라이드 함수
+                function nextCountFn(){
                     cnt++;
                     if(cnt>n){cnt=0;}
                     mainNextSlideFn();
                 }
-
-                //메인 이전 카운트 슬라이드 함수
-                function prevCntFn(){
+                //2-2메인 이전 카운트 슬라이드 함수
+                function prevCountFn(){
                     cnt--;
                     if(cnt<0){cnt=n;}
                     mainPrevSlideFn();
                 }
+                
 
-                //3. 버튼 클릭 이벤트
-                //다음 화살 버튼 클릭 이벤트
-                _nextBtn.on({
-                    click: function(e){
+                //3. 버튼 클릭 이벤트 //////////
+                //3-1 다음 화살 버튼 클릭 이벤트
+                $nextBtn.on({
+                    click:  function(e){
                         e.preventDefault();
-                        nextCntFn();
+                        nextCountFn();
+                    }
+                });                
+                //3-2 이전 화살 버튼 클릭 이벤트
+                $prevBtn.on({
+                    click:  function(e){
+                        e.preventDefault();
+                        prevCountFn();
                     }
                 });
 
-                //이전 화살 버튼 클릭 이벤트
-                _prevBtn.on({
-                    click: function(e){
-                        e.preventDefault();
-                        prevCntFn();
-                    }
-                });
 
-                //4. 페이지 버튼(인디게이터) 이벤트 함수
+                //4. 페이지 버튼(인디게이터 버튼) 이벤트 함수 //////////
+                //스토리 보드 : 현재 슬라이드가
+                //첫번째 슬라이드 이면 페이지 버튼 1 : [1] 두번째 슬라이드 이미지 s3Slide1.jpg
+                //첫번째 슬라이드 이면 페이지 버튼 2 : [2] 세번째 슬라이드 이미지 s3Slide2.jpg
+
+                //두번째 슬라이드 이면 페이지 버튼 1 : [0] 첫번째 슬라이드 이미지 s3Slide0.jpg 
+                //두번째 슬라이드 이면 페이지 버튼 2 : [2] 세번째 슬라이드 이미지 s3Slide2.jpg
+
+                //세번째 슬라이드 이면 페이지 버튼 1 : [0] 첫번째 슬라이드 이미지 s3Slide0.jpg 
+                //세번째 슬라이드 이면 페이지 버튼 2 : [1] 두번째 슬라이드 이미지 s3Slide1.jpg
                 function pageBtnFn(){
+
                     switch(cnt){
                         case 0:
                             a = [1,2];
@@ -403,32 +418,32 @@
                             break;
                         case 2:
                             a = [0,1];
-                    }
+                    }  
 
                     for(var i=0;i<a.length;i++){
-                        _pageBtn.eq(i).css({backgroundImage:'url(./img/s3slide'+a[i]+'.jpg)'});
+                        $pageBtn.eq(i).css({backgroundImage:'url(./img/s3Slide'+ a[i] +'.jpg)'});
                     }
+
                 }
 
-                //5. 페이지 버튼(인디게이터) 클릭 이벤트
-                _pageBtn.each(function(idx){
+                //5. 페이지 버튼(인디게이터 버튼) 클릭 이벤트 //////////
+                $pageBtn.each(function(idx){
                     $(this).on({
-                        click: function(e){
+                        click:  function(e){
                             e.preventDefault();
 
-                            var imsi = cnt;
-                                cnt = a[idx];
+                            var imsi = cnt; 
+                                cnt  = a[idx]; 
 
-                                if(imsi < a[idx]){
+                                if(imsi < a[idx]){ 
                                     mainNextSlideFn();
-                                }
+                                } 
                                 else if(imsi > a[idx]){
                                     mainPrevSlideFn();
-                                }
+                                }   
                         }
-                    });
+                    });    
                 });
-
         },
         section4Fn: function(){
             var _slideN     = 3;
@@ -648,6 +663,7 @@
 
         //메인1_1 페이지
         main1_1Fn: function(){
+            var $win = $(window);
             var $section2WrapW = $('#main1-1 #section2 .wrap').innerWidth();
             var $section2ImgWrap = $('#main1-1 #section2 .img-wrap');
             var $winW = $win.innerWidth();

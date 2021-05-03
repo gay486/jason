@@ -1,14 +1,14 @@
 @charset "UTF-8";
 
 @media all and (max-width:1360px){
-    #wrap #main #section3 .wrap .gap .container .content .slide-container .slide-view {border-width:3px;}          
     #wrap #main #section3 .wrap .gap .container .content .slide-container .page-wrap {width:calc(18.0882353%*2);}
     #wrap #main #section3 .wrap .gap .container .content .slide-container .arrow-wrap {bottom:3px;right:4px;}    
+    #wrap #main #section3 .wrap .gap .container .content .slide-container .slide-view {border-width:3px;}
     #wrap #main #section3 .wrap .gap .container .content .slide-container .slide-view .slide-wrap .slide .slide-content .left-wrap {margin-left:3.5%}    
     #wrap #main #section3 .wrap .gap .container .content .slide-container .slide-view .slide-wrap .slide .slide-content .right-wrap {margin-right:3.5%}
-    #wrap #main #section3 .wrap .gap .container .content .slide-container .slide-view .slide-wrap .slide .slide-content .right-wrap .txt-gap .slide-txt h3 {font-size:20px;}
-    #wrap #main #section3 .wrap .gap .container .content .slide-container .slide-view .slide-wrap .slide .slide-content .right-wrap .txt-gap .slide-txt h4 {font-size:14px;}
-    #wrap #main #section3 .wrap .gap .container .content .slide-container .slide-view .slide-wrap .slide .slide-content .right-wrap .txt-gap .slide-txt p {font-size:13px;line-height:150%;}
+    #wrap #main #section3 .wrap .gap .container .content .slide-container .slide-view .slide-wrap .slide .slide-content .right-wrap .text-gap .slide-text h3 {font-size:20px;}
+    #wrap #main #section3 .wrap .gap .container .content .slide-container .slide-view .slide-wrap .slide .slide-content .right-wrap .text-gap .slide-text h4 {font-size:14px;}
+    #wrap #main #section3 .wrap .gap .container .content .slide-container .slide-view .slide-wrap .slide .slide-content .right-wrap .text-gap .slide-text p {font-size:13px;line-height:150%;}
 }
 
 @media all and (max-width:1280px){
@@ -63,9 +63,9 @@
     #wrap #main #section2 .wrap .gap .container .content .gallery li .gallery-wrap .caption h4 {font-size:13px;}
     #wrap #main #section2 .wrap .gap .container .content .gallery li .gallery-wrap .caption h3 {font-size:18px;}
 
-    #wrap #main #section3 .wrap .gap .container .content .slide-container .slide-view .slide-wrap .slide .slide-content .right-wrap .txt-gap .slide-txt h3 {font-size:19px;}
-    #wrap #main #section3 .wrap .gap .container .content .slide-container .slide-view .slide-wrap .slide .slide-content .right-wrap .txt-gap .slide-txt h4 {font-size:14px;}
-    #wrap #main #section3 .wrap .gap .container .content .slide-container .slide-view .slide-wrap .slide .slide-content .right-wrap .txt-gap .slide-txt p {font-size:13px;line-height:130%;}
+    #wrap #main #section3 .wrap .gap .container .content .slide-container .slide-view .slide-wrap .slide .slide-content .right-wrap .text-gap .slide-text h3 {font-size:19px;}
+    #wrap #main #section3 .wrap .gap .container .content .slide-container .slide-view .slide-wrap .slide .slide-content .right-wrap .text-gap .slide-text h4 {font-size:14px;}
+    #wrap #main #section3 .wrap .gap .container .content .slide-container .slide-view .slide-wrap .slide .slide-content .right-wrap .text-gap .slide-text p {font-size:13px;line-height:130%;}
 
 
         
@@ -132,12 +132,12 @@
     #wrap #main #section2 .wrap .gap .container .content .gallery li .gallery-wrap .caption h4 {font-size:12px;}
     #wrap #main #section2 .wrap .gap .container .content .gallery li .gallery-wrap .caption h3 {font-size:16px;}
 
-    #wrap #main #section3 .wrap .gap .container .content .slide-container .slide-view .slide-wrap .slide .slide-content .right-wrap .txt-gap .slide-txt h3 ,
-    #wrap #main #section3 .wrap .gap .container .content .slide-container .slide-view .slide-wrap .slide .slide-content .right-wrap .txt-gap .slide-txt h4 ,
-    #wrap #main #section3 .wrap .gap .container .content .slide-container .slide-view .slide-wrap .slide .slide-content .right-wrap .txt-gap .slide-txt p  {white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+    #wrap #main #section3 .wrap .gap .container .content .slide-container .slide-view .slide-wrap .slide .slide-content .right-wrap .text-gap .slide-text h3 ,
+    #wrap #main #section3 .wrap .gap .container .content .slide-container .slide-view .slide-wrap .slide .slide-content .right-wrap .text-gap .slide-text h4 ,
+    #wrap #main #section3 .wrap .gap .container .content .slide-container .slide-view .slide-wrap .slide .slide-content .right-wrap .text-gap .slide-text p  {white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
 
     #wrap #main #section3 .wrap .gap .container .content .slide-container .slide-view {border-width:2px;}    
-    #wrap #main #section3 .wrap .gap .container .content .slide-container .arrow-wrap {bottom:2px;}   
+    #wrap #main #section3 .wrap .gap .container .content .slide-container .arrow-wrap {bottom:2px;}      
 
     #wrap #footer .content .left-wrap h1 {width:100%;}
     #wrap #footer .content .left-wrap h1 img {width:100%;max-width:160px;}
@@ -156,7 +156,7 @@
     #wrap #main #section2 .wrap .gap .container .content .gallery li {width:100%;}
 
     #wrap #main #section3 .wrap .gap .container .content .slide-container .page-wrap {display:none;}    
-    #wrap #main #section3 .wrap .gap .container .content .slide-container .arrow-wrap {transform:scale(.8);bottom:-3px;right:-6px;}
+    #wrap #main #section3 .wrap .gap .container .content .slide-container .arrow-wrap {transform:scale(.8);bottom:-3px;right:-6px;}    
 }
 
 @media all and (max-width:500px){

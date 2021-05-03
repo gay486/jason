@@ -194,112 +194,120 @@
         </div>
     </section>
     <section id="section3" class="sec2345">
-        <div class="wrap">
-            <div class="gap">
-                <div class="container">
-                    <div class="title">
-                        <h2>JTS 프로모션</h2>
-                    </div>
-                    <div class="content">
-                        <div class="slide-container">
-                            <div class="slide-view">
-                                <ul class="slide-wrap clearfix">
-                                    <li class="slide slide1">
-                                        <div class="slide-content">
-                                            <div class="left-wrap">
-                                                <div class="slide-bg">
+            <div class="wrap">
+                <div class="gap">
+                    <div class="container">
+                        
+                        <div class="title">
+                            <h2>JTS 프로모션</h2>
+                        </div> 
 
+                        <div class="content">
+                            <div class="slide-container">
+                                <div class="slide-view">
+                                    <ul class="slide-wrap clearfix">
+                                        <li class="slide slide1">
+                                            <div class="slide-content">
+                                                <div class="left-wrap">
+                                                    <div class="slide-bg-image">
+
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="right-wrap">
-                                                <div class="txt-gap">
-                                                    <div class="slide-txt">
-                                                        <h3><a href="#">다낭 포시즌스 더 남하이 프로모션</a></h3>
-                                                        <h4>Four Seasons The Nam Hai, Danang</h4>
-                                                        <p>
-                                                            베트남 다낭에 위치한 포시즌스 더남하이.
-                                                            다낭의 수많은 리조트 중 가운데 가장 높은 등급의 리조트로 
-                                                            포시즌스 계열다운 최상의 서비스와 컨디션을 약속 드립니다.
-                                                            5베드룸 까지 있어 가족여행객 분들에게 적극 추천드리는 리조트 입니다.
-                                                            
-                                                            제이슨여행사에서 포시즌스 더남하이의 특별한 프로모션과 특가 요금을 받아보세요
-                                                            
-                                                            제이슨여행사 (02-515-6897)
-                                                        </p>
+                                                <div class="right-wrap">
+                                                    <div class="text-gap">
+                                                        <div class="slide-text">
+                                                            <h3><a href="">다낭 포시즌스 더 남하이 프로모션</a></h3>
+                                                            <h4>Four Seasons The Nam Hai, Danang</h4>
+                                                            <p>
+                                                                베트남 다낭에 위치한 포시즌스 더남하이.
+                                                                다낭의 수많은 리조트 중 가운데 가장 높은 등급의 리조트로 
+                                                                포시즌스 계열다운 최상의 서비스와 컨디션을 약속 드립니다.
+                                                                5베드룸 까지 있어 가족여행객 분들에게 적극 추천드리는 리조트 입니다.
+
+                                                                제이슨여행사에서 포시즌스 더남하이의 특별한 프로모션과 특가 요금을 받아보세요
+
+                                                                제이슨여행사 (02-515-6897)
+                                                            </p>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </li>
-                                    <li class="slide slide2">
-                                        <div class="slide-content">
-                                            <div class="left-wrap">
-                                                <div class="slide-bg">
+                                        </li>
+                                        <li class="slide slide2">
+                                            <div class="slide-content">
+                                                <div class="left-wrap">
+                                                    <div class="slide-bg-image">
 
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="right-wrap">
-                                                <div class="txt-gap">
-                                                    <div class="slide-txt">
-                                                        <h3><a href="#">발리 아만누사빌라스 프로모션</a></h3>
-                                                        <h4>AMAN Villas Nusa Dua, Bali</h4>
-                                                        <p>
-                                                            전세계 가장 높은 등급의 호텔 브랜드인 AMAN,
-                                                            발리에 3개의 아만 Property가 있고, AMAN Villa Nusadua는 모두 프라이빗한 빌라로 되어 있어 그 중 가장 높은 금액을 자랑하지만
-                                                            Day Use와 Transit 프로모션으로 최고급의 Property를 합리적인 금액에 경험해볼 수 있습니다.
-                                                            
-                                                            제이슨여행사에서 아만 빌라스 앳 누사두아의 특별한 프로모션과 특가 요금을 받아보세요.
-                                                            
-                                                            제이슨여행사 (02-515-...
-                                                        </p>
+                                                <div class="right-wrap">
+                                                    <div class="text-gap">
+                                                        <div class="slide-text">
+                                                            <h3><a href="">발리 아만누사빌라스 프로모션</a></h3>
+                                                            <h4>AMAN Villas Nusa Dua, Bali</h4>
+                                                            <p>
+                                                                전세계 가장 높은 등급의 호텔 브랜드인 AMAN,
+                                                                발리에 3개의 아만 Property가 있고, AMAN Villa Nusadua는 모두 프라이빗한 빌라로 되어 있어 그 중 가장 높은 금액을 자랑하지만
+                                                                Day Use와 Transit 프로모션으로 최고급의 Property를 합리적인 금액에 경험해볼 수 있습니다.
+                                                                
+                                                                제이슨여행사에서 아만 빌라스 앳 누사두아의 특별한 프로모션과 특가 요금을 받아보세요.
+                                                                
+                                                                제이슨여행사 (02-515-...
+                                                            </p>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </li>
-                                    <li class="slide slide3">
-                                        <div class="slide-content">
-                                            <div class="left-wrap">
-                                                <div class="slide-bg">
+                                        </li>
+                                        <li class="slide slide3">
+                                            <div class="slide-content">
+                                                <div class="left-wrap">
+                                                    <div class="slide-bg-image">
 
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="right-wrap">
-                                                <div class="txt-gap">
-                                                    <div class="slide-txt">
-                                                        <h3><a href="#">발리 알릴라 스미냑 프로모션</a></h3>
-                                                        <h4>Alila seminyak, Bali</h4>
-                                                        <p>
-                                                            Haytt의 상위 브랜드가 된 Alila,
-                                                            알릴라 스미냑은 스미냑 비치 바로 앞에 위치하고 있어, 아름다운 해변과 선셋을 즐길 수 있고,
-                                                            바로 옆에는 유명한 비치클럽 포테이토헤드가 좀만 걸어나가면 스미냑 시내가 있어
-                                                            휴양, 관광, 쇼핑, 유흥 모든 것을 다 즐길 수 있는 지리적인 조건을 갖고 있습니다.
-                                                            
-                                                            제이슨여행사에서 알릴라 스미냑의 특별한 프로모션과 특가 요금을 받아보세요
-                                                            
-                                                            제이슨여행사 (02-515-6897)
-                                                        </p>
+                                                <div class="right-wrap">
+                                                    <div class="text-gap">
+                                                        <div class="slide-text">
+                                                            <h3><a href="">발리 알릴라 스미냑 프로모션</a></h3>
+                                                            <h4>Alila seminyak, Bali</h4>
+                                                            <p>
+                                                                Haytt의 상위 브랜드가 된 Alila,
+                                                                알릴라 스미냑은 스미냑 비치 바로 앞에 위치하고 있어, 아름다운 해변과 선셋을 즐길 수 있고,
+                                                                바로 옆에는 유명한 비치클럽 포테이토헤드가 좀만 걸어나가면 스미냑 시내가 있어
+                                                                휴양, 관광, 쇼핑, 유흥 모든 것을 다 즐길 수 있는 지리적인 조건을 갖고 있습니다.
+                                                                
+                                                                제이슨여행사에서 알릴라 스미냑의 특별한 프로모션과 특가 요금을 받아보세요
+                                                                
+                                                                제이슨여행사 (02-515-6897)
+                                                            </p>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </li>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <!-- 페이지 이미지 -->
+                                <ul class="page-wrap">
+                                    <li><div><a href="#" class="pageBtn pageBtn1 blind">Page Image</a></div></li>
+                                    <li><div><a href="#" class="pageBtn pageBtn2 blind">Page Image</a></div></li>
                                 </ul>
+
+                                <!-- 좌우 화살버튼 -->
+                                <ul class="arrow-wrap clearfix">
+                                    <li><a href="#" class="prevBtn"><i class="blind">prevBtn</i></a></li>
+                                    <li><a href="#" class="nextBtn"><i class="blind">nextBtn</i></a></li>
+                                </ul>
+
                             </div>
-                            <ul class="page-wrap clearfix">
-                                <li><div><a href="#" class="pageBtn pageBtn1 blind">Page Image</a></div></li>
-                                <li><div><a href="#" class="pageBtn pageBtn2 blind">Page Image</a></div></li>
-                            </ul>
-                            <ul class="arrow-wrap clearfix">
-                                <li><a href="#" class="prevBtn"><i class="blind">prevBtn</i></a></li>
-                                <li><a href="#" class="nextBtn"><i class="blind">nextBtn</i></a></li>
-                            </ul>
                         </div>
+
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
     <section id="section4" class="sec2345">
         <div class="wrap">
             <div class="gap">
